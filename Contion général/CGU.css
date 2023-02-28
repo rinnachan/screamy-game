@@ -1,0 +1,97 @@
+/* Début Header */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+header {
+    background-color: #080928;
+    border-radius:10px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+
+
+.title {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+.search {
+    border-radius: 50px;
+    width: 13%;
+    height: 20%;
+    display: flex;
+    position: relative;
+    padding-left: 10px;
+}
+
+
+img { padding:  15px;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+nav .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+/* Fin du header */
+
+/* Début du Body  */
+
+body{
+    background-color: #14166a;
+    margin: 0;   
+}
+
+.cgu {
+    color: #ECE2D0;
+    font-family: 'Bungee Hairline', cursive;
+    font-size:large;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: #ECE2D0;
+    font-family: 'Bungee Hairline', cursive;
+    font-size:medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* fin du Body  */
+
+/* Début du Footer  */
+
+div {
+    color: blanchedalmond;
+}
+
+section {
+  background-color: #080928;
+  display: flex;
+  justify-content: right; justify-content: space-around;
+  
+}
+
+h6 {
+    color: blanchedalmond;
+}
+
+/* Fin Footer */
