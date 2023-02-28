@@ -1,0 +1,208 @@
+body {
+    /* background-image: url(imageeeeeeees/Nyancat.jpg); */
+    background: rgb(16, 13, 58);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+header {
+    background-color: #080928;
+    border-radius:10px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.search {
+    border-radius: 50px;
+    width: 15%;
+    height: 20%;
+    display: flex;
+    position: relative;
+    padding-left: 10px;
+}
+
+
+img { padding:  15px;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    
+}
+
+nav .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sect1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
+
+.divvvvv1 {
+    background-color: #080928;
+    width: 51%;
+    border-radius: 35px;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span1 {
+    color: green;
+}
+
+.button {
+    margin-bottom: 20px;
+    background-color: #59A81D;
+    border-color: #59A81D;
+    border-radius: 3px;
+    font-size: large;
+    margin-right: 150px;  
+    padding: 5px 20px ; 
+    box-sizing: border-box; 
+}
+
+
+.divvvvv2 {
+    background-color: #080928;
+    width: 40%;
+    border-radius: 35px;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-around;
+}
+
+.button2 {
+    background-color: #59A81D;
+    border-color: #59A81D;
+    border-radius: 3px;
+    font-size: large; 
+    margin: 30px;
+    padding: 5px 20px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+
+
+.sect2 {
+    flex-direction: row;
+    text-align: center;
+}
+
+.sect3 {
+    flex-direction: row;
+    text-align: center;
+    justify-content: baseline;
+    
+}
+
+
+h2 {
+    color: aliceblue;
+    margin-left: 200px;
+}
+
+div {
+    color: blanchedalmond;
+}
+
+footer {
+  background-color: #080928;
+  border-radius: 10px;
+  display: flex;
+  justify-content: right; 
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
