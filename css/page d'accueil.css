@@ -1,5 +1,4 @@
 body {
-    /* background-image: url(imageeeeeeees/Nyancat.jpg); */
     background: rgb(16, 13, 58);
 }
 
@@ -56,33 +55,6 @@ nav .nav-links {
     justify-content: space-between;
     width: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .sect1 {
     display: flex;
     justify-content: space-around;
@@ -134,7 +106,6 @@ nav .nav-links {
 .container2 {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     justify-content: space-around;
 }
 
@@ -151,17 +122,7 @@ nav .nav-links {
 
 
 
-.sect2 {
-    flex-direction: row;
-    text-align: center;
-}
 
-.sect3 {
-    flex-direction: row;
-    text-align: center;
-    justify-content: baseline;
-    
-}
 
 
 h2 {
@@ -176,10 +137,30 @@ div {
 footer {
   background-color: #080928;
   border-radius: 10px;
-  display: flex;
-  justify-content: right; 
-  justify-content: space-around;
+  text-align: center;
 }
+
+.condition {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.copyright {
+    text-align: center;
+
+}
+
+.condition a:link {
+text-decoration: none;
+    color: antiquewhite;
+}
+
+a:visited {
+    text-decoration: none;
+        color: antiquewhite;
+    }
 
 
 
