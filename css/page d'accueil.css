@@ -57,6 +57,9 @@ nav .nav-links {
     justify-content: space-between;
     width: auto;
 }
+
+
+
 .sect1 {
     display: flex;
     justify-content: space-around;
@@ -66,6 +69,10 @@ nav .nav-links {
 }
 .cont{
     min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .divvvvv1 {
@@ -93,8 +100,8 @@ nav .nav-links {
     border-color: #59A81D;
     border-radius: 3px;
     font-size: large;
-    /* margin-right: 150px;  
-    padding: 5px 20px ;  */
+    margin-right: 150px;  
+    padding: 5px 20px ; 
     box-sizing: border-box; 
     width: 20%;
 }
@@ -121,11 +128,24 @@ nav .nav-links {
     border-radius: 3px;
     font-size: large; 
     margin: 30px;
-    /* padding: 5px 20px;
-    margin-bottom: 12px; */
+    padding: 5px 20px;
+    margin-bottom: 12px;
     box-sizing: border-box;
     justify-content: center;
     width: 20%;
+}
+
+
+.sect2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sect3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 
