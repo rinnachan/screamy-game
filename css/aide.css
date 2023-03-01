@@ -1,6 +1,11 @@
 /* Début Header */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+h1 a:link {
+  text-decoration: none;
+  color: #fff;
+  }
+
 header {
     background-color: #080928;
     border-radius:10px;
@@ -80,10 +85,7 @@ p {
 
 /* Début du Footer  */
 
-h1 a:link {
-text-decoration: none;
-color: #fff;
-}
+
 
 
 .condition {
