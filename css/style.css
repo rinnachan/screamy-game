@@ -10,6 +10,11 @@ h1 a:link{
    
 }
 
+h2 {
+  color: #fff;
+  margin: 20px;
+}
+
 header {
     background-color: #080928;
     border-radius:10px;
@@ -130,6 +135,8 @@ body{
 
 }
 
+
+
 .divvvvv1 {
     background-color: #080928;
     width: 51%;
@@ -159,7 +166,9 @@ body{
     padding: 5px 20px ; 
     box-sizing: border-box; 
     width: 20%;
+   
 }
+
 
 
 .divvvvv2 {
