@@ -136,6 +136,12 @@ nav .nav-links {
 }
 
 
+
+.jeuxretropopu {
+  color: aliceblue;
+  margin-left: 100px;
+}
+
 .sect2 {
     display: flex;
     justify-content: space-evenly;
