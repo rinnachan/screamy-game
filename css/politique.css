@@ -42,6 +42,7 @@ img { padding:  15px;
 .navbar .nav-links ul{
     display: flex;
     flex-direction: row-reverse;
+    list-style: none;
     
 }
 
