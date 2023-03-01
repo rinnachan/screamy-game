@@ -2,10 +2,11 @@
 
 
 body {
-    background: rgb(16, 13, 58);
+    /* background: rgb(16, 13, 58); */
+    background: #080928;
 }
 
-
+/* debut du header */
 header {
     background-color: #080928;
     border-radius:10px;
@@ -57,8 +58,9 @@ nav .nav-links {
     justify-content: space-between;
     width: auto;
 }
+ /* fin du header */
 
-
+ /* debut du body */
 
 .sect1 {
     display: flex;
@@ -81,8 +83,15 @@ nav .nav-links {
     border-radius: 35px;
     color: aliceblue;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    transition: 1s;
+    box-shadow: 0px 0px 15px -3px white;
 }
+
+  .divvvvv1:hover {
+    box-shadow: 0px 0px 50px -10px lightskyblue;
+    box-sizing: border-box;  
+  }
 
 .container1 {
     display: flex;
@@ -104,6 +113,7 @@ nav .nav-links {
     padding: 5px 20px ; 
     box-sizing: border-box; 
     width: 20%;
+    cursor: pointer;
 }
 
 
@@ -113,7 +123,15 @@ nav .nav-links {
     border-radius: 35px;
     color: aliceblue;
     justify-content: center;
-    align-items: center;    
+    align-items: center;  
+    transition: 1s;
+    box-shadow: 0px 0px 15px -3px white;
+}
+
+.divvvvv2:hover {
+    box-shadow: 0px 0px 50px -10px lightskyblue;
+    box-sizing: border-box;  
+
 }
 
 .container2 {
@@ -133,7 +151,9 @@ nav .nav-links {
     box-sizing: border-box;
     justify-content: center;
     width: 20%;
+    cursor: pointer;
 }
+
 
 
 
@@ -143,10 +163,22 @@ nav .nav-links {
 }
 
 .sect2 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 1s;
 }
+
+/* .sect2 img {
+    filter: drop-shadow(0rem 0rem 1rem rgba(255, 255, 255, 0.5));
+} */
+
+.sect2 img:hover {
+    filter: drop-shadow(0rem 0rem 2rem rgba(255, 255, 255, 0.5));
+}
+
+
+
 
 .sect3 {
     display: flex;
@@ -154,10 +186,10 @@ nav .nav-links {
     align-items: center;
 }
 
+/* fin du body */
 
 
-
-
+/* debut du footer */
 
 div {
     color: blanchedalmond;
@@ -274,4 +306,4 @@ a:visited {
     transition-delay: 0.25s;
   }
 
-
+/* fin du footer */

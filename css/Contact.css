@@ -73,16 +73,23 @@ body {
     align-items: center;
     flex-direction: row;
     padding: 50px;
+    padding-bottom: 150px;
 }
 
 .div1 {
-    border: white;
+   
     width: 33%;
 }
 
 .div2 {
     width: 33%;
+    border-style:groove;
+    border-top: none;
+    border-bottom: none;
 }
+
+
+
 
 
 .div3 {
