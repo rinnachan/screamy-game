@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 h1 {
   font-family: 'Press Start 2P', cursive; 
 }
@@ -8,112 +9,6 @@ h1 a:link{
   color: #fff;
    
 }
-
-body{
-    background-color: #14166a;
-    margin: 0;
-    
-}
-
-span h1{
-    text-align: center;
-    color:#ECE2D0;
-    font-family: 'Bungee Hairline', cursive;
-    font-size:24px;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-p{
-    color: #ECE2D0;
-    font-family: 'Bungee Hairline', cursive;
-    font-size:large;
-    font-weight: bold;
-    text-align: center;
-}
-
-label{
-    position:relative;
-    top: 100px;
-    color: #ECE2D0;
-    font-family: 'Bungee Hairline', cursive;
-    font-size:large;
-    font-weight: bold;  
-}
-
-.conteneur {
-    position: relative;
-    background: linear-gradient( rgba(0, 10, 255, 0.3), rgba(255, 0, 168, 0.3));
-    border-radius: 20px;
-    
-    border: 3px solid black;
-    margin-left:  200px;
-    margin-right: 200px;
-}
-
-.formulaire{
-    position: relative;
-    margin-left: 50px;
-    
-}
-
-#Groot {
-    position: absolute; left: 600px; bottom: 50px;
-}
-
-input[type=text] {
-    background-color:rgba(57, 100, 152, 1);
-    border-radius: 15px;
-   height: 30px;
-   font-family: 'Bungee Hairline', cursive;
-    font-size:large;
-    font-weight: bold;  
-}
-
-
-input[type=password] {
-    background-color:rgba(57, 100, 152, 1);
-    border-radius: 15px;
-    height: 30px;
-    font-family: 'Bungee Hairline', cursive;
-    font-size:large;
-    font-weight: bold;  
-}
-
-
-input::placeholder {
-    color: black;
-    opacity: 1;
-}
-
-#CGV {
-    text-decoration: underline;
-}
-
-input[type=Date] {
-    background-color:rgba(57, 100, 152, 1);
-    border-radius: 15px;
-    height: 30px;
-    font-family: 'Bungee Hairline', cursive;
-    font-size:large;
-    font-weight: bold;  
-    text-align: center;
-}  
-
-input[type=submit] {
-    background-color:rgba(47, 175, 67, 0.56);
-    width: 500px;
-    border-radius: 15px;
-    height: 50px;
-    font-family: 'Bungee Hairline', cursive;
-    font-size:large;
-    font-weight: bold; 
-    margin-left: 230px;
-    margin-top: 150px;
-    
-}  
-/* Début Header */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 header {
     background-color: #080928;
@@ -210,9 +105,118 @@ nav .nav-links {
 
 
 
-/* Fin Header */
+/* Fin du header  */
 
-/* Debut Footer */
+/* Début du body  */
+
+body{
+  background-color: #14166a;
+  margin: 0;
+  
+}
+
+.sect1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
+.cont{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.divvvvv1 {
+    background-color: #080928;
+    width: 51%;
+    border-radius: 35px;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span1 {
+    color: green;
+}
+
+.button {
+    margin-bottom: 20px;
+    background-color: #59A81D;
+    border-color: #59A81D;
+    border-radius: 3px;
+    font-size: large;
+    margin-right: 150px;  
+    padding: 5px 20px ; 
+    box-sizing: border-box; 
+    width: 20%;
+}
+
+
+.divvvvv2 {
+    background-color: #080928;
+    width: 40%;
+    border-radius: 35px;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button2 {
+    background-color: #59A81D;
+    border-color: #59A81D;
+    border-radius: 3px;
+    font-size: large; 
+    margin: 30px;
+    padding: 5px 20px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 20%;
+}
+
+
+
+.jeuxretropopu {
+  color: aliceblue;
+  margin-left: 100px;
+}
+
+.sect2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sect3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+/* Fin du Body  */
+
+
+
+/* Début du footer  */
+
 .condition {
   display: flex;
   justify-content: space-around;

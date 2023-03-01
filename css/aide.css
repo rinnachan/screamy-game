@@ -1,6 +1,17 @@
 /* Début Header */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+h1 {
+  font-family: 'Press Start 2P', cursive; 
+}
+
+h1 a:link{
+  text-decoration: none;
+  color: #fff;
+   
+}
+
 header {
     background-color: #080928;
     border-radius:10px;
@@ -16,14 +27,15 @@ header {
     flex-wrap: wrap;
 }
 
-
+#nom {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
 
 .title {
     display: flex;
     align-items: center;
     padding-left: 15px;
-    font-family: 'Press Start 2P', cursive;
-    color: white;
 }
 
 .search {
@@ -51,6 +63,49 @@ nav .nav-links {
     justify-content: space-between;
     width: auto;
 }
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #080928;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #080928;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #751bcf;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color:#080928;}
+
+
 /* Fin du header */
 
 /* Début du Body  */
@@ -61,7 +116,7 @@ body{
 }
 
 .cgu {
-    color: #ECE2D0;
+    color: #fff;
     font-family: 'Bungee Hairline', cursive;
     font-size:large;
     font-weight: bold;
@@ -69,7 +124,7 @@ body{
 }
 
 p {
-    color: #ECE2D0;
+    color: #fff;
     font-family: 'Bungee Hairline', cursive;
     font-size:large;
     font-weight: bold;
@@ -80,9 +135,8 @@ p {
 
 /* Début du Footer  */
 
-div {
-    color: blanchedalmond;
-}
+
+
 
 .condition {
     display: flex;
@@ -93,12 +147,12 @@ div {
 
 .condition a:link {
 text-decoration: none;
-    color: antiquewhite;
+    color:#fff;
 }
 
 a:visited {
     text-decoration: none;
-        color: antiquewhite;
+        color: #fff;
     }
 @import url('https://fons.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap');
 
@@ -118,7 +172,7 @@ a:visited {
 
   ul a:link {
     text-decoration: none;
-        color: antiquewhite;
+        color: #fff;
     }
   ul li{
     position: relative;
