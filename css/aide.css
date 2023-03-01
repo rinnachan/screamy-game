@@ -1,10 +1,16 @@
 /* Début Header */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-h1 a:link {
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+h1 {
+  font-family: 'Press Start 2P', cursive; 
+}
+
+h1 a:link{
   text-decoration: none;
   color: #fff;
-  }
+   
+}
 
 header {
     background-color: #080928;
@@ -21,14 +27,15 @@ header {
     flex-wrap: wrap;
 }
 
-
+#nom {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
 
 .title {
     display: flex;
     align-items: center;
     padding-left: 15px;
-    font-family: 'Press Start 2P', cursive;
-    color: white;
 }
 
 .search {
@@ -56,6 +63,49 @@ nav .nav-links {
     justify-content: space-between;
     width: auto;
 }
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #080928;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #080928;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #751bcf;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color:#080928;}
+
+
 /* Fin du header */
 
 /* Début du Body  */
