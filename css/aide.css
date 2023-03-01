@@ -61,7 +61,7 @@ body{
 }
 
 .cgu {
-    color: #ECE2D0;
+    color: #fff;
     font-family: 'Bungee Hairline', cursive;
     font-size:large;
     font-weight: bold;
@@ -69,7 +69,7 @@ body{
 }
 
 p {
-    color: #ECE2D0;
+    color: #fff;
     font-family: 'Bungee Hairline', cursive;
     font-size:large;
     font-weight: bold;
@@ -80,9 +80,11 @@ p {
 
 /* Début du Footer  */
 
-div {
-    color: blanchedalmond;
+h1 a:link {
+text-decoration: none;
+color: #fff;
 }
+
 
 .condition {
     display: flex;
@@ -93,12 +95,12 @@ div {
 
 .condition a:link {
 text-decoration: none;
-    color: antiquewhite;
+    color:#fff;
 }
 
 a:visited {
     text-decoration: none;
-        color: antiquewhite;
+        color: #fff;
     }
 @import url('https://fons.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap');
 
@@ -118,7 +120,7 @@ a:visited {
 
   ul a:link {
     text-decoration: none;
-        color: antiquewhite;
+        color: #fff;
     }
   ul li{
     position: relative;
