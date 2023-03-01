@@ -1,7 +1,13 @@
-h1 a:link {
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+h1 {
+  font-family: 'Press Start 2P', cursive; 
+}
+
+h1 a:link{
   text-decoration: none;
   color: #fff;
-  }
+   
+}
 
 body{
     background-color: #14166a;
@@ -207,10 +213,6 @@ nav .nav-links {
 /* Fin Header */
 
 /* Debut Footer */
-
-
-
-
 .condition {
   display: flex;
   justify-content: space-around;
