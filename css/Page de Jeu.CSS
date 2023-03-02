@@ -1,0 +1,156 @@
+/* Début page de jeu  */
+
+body{
+    background-color: #080928;
+    margin: 0%;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    justify-content: start;
+    background-color: #080928;
+}
+
+
+
+#jeusimilaires{
+    width: 400px;
+    text-align: center;
+    font-family: 'Bungee Hairline', cursive;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+
+article{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+section{
+    padding-left: 50px;
+    padding-top: 140px;
+    background-color: #080928;
+}
+
+
+
+#jeusimilaires img{
+    padding: 0%; 
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+
+
+#jeuprincipal img{
+    padding: 0%;
+    border-radius: 40px;
+}
+
+
+h4{
+    padding-bottom: 40px;
+}
+
+#conteneur{
+display: flex;
+justify-content: space-around;
+}
+
+.note:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255)) 
+}
+.note{
+    background-color: rgb(173, 15, 15);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: white;
+}
+
+
+.rating a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color .4s;
+ }
+ .rating a:hover,
+ .rating a:focus {
+    color: orange;
+    cursor: pointer;
+
+ }
+
+ .rating-star:hover,
+ .rating-star:hover ~ .rating-star {
+     color: transparent;
+     
+ }
+ 
+
+ .rating-star:hover:before,
+ .rating-star:hover ~ .rating-star:before {
+     color: #eab308;
+     content: '★';
+     left: 0;
+     position: absolute;
+
+ }
+ 
+ .rating-star {
+     font-size: 1.5rem;
+     background-color: transparent;
+     border: transparent;
+     margin: 0 2px;
+     padding: 0;
+     position: relative;
+ }
+
+.jouermaintenant:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255)) 
+}
+.jouermaintenant{
+    background-color: rgb(6, 119, 57);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: white;
+}
+
+
+.avis:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255)) 
+}
+.avis{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: white;
+}   
+
+#conteneur span{
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+textarea{
+    margin-left: 150px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: 'Bungee Hairline', cursive;
+    background-color: antiquewhite;
+    color: black;
+    font-size: large;
+    font-weight: lighter;
+}
+
+/* fin page de jeu */
