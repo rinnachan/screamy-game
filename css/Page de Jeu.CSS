@@ -38,11 +38,22 @@ section{
 }
 
 
+.jeusimilaires img zoom{
+    overflow: hidden;
+    }
+
+#jeusimilaires img:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
 
 #jeusimilaires img{
     padding: 0%; 
     border-radius: 10px;
     border: 2px solid rgb(255, 255, 255);
+    transition: transform .4s;
 
 }
 
@@ -153,4 +164,23 @@ textarea{
     font-weight: lighter;
 }
 
-/* fin page de jeu */
+#Retour-en-haut{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom: 50px;
+    right: 30px;
+  }
+  #Retour-en-haut img{
+    width: 30px
+  }
+
+
+  #retour-en-haut
+  {
+  position: fixed;
+  bottom : 10px;
+  right: -100px;
+  opacity: 0.5;
+  }
+
