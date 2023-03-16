@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600&display=swap');
+
+/* Barre de navigation debut */
+body { 
+    background-color: #080928;
+
+}
+
+/* Fin de la barre de navigation */
+
+/* Debut de la page d'inscription */
+
+section#contact  {
+    background-color: #080928;
+    padding: 100px 0;
+}
+
+section#contact h4 {
+    font-family: 'Oxanium', cursive;
+}
+
+section#contact h2 {
+    font-family: 'Oxanium', cursive;
+
+}
+
+section#contact .container-inscription label{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.0em;
+    
+}
+
+section#contact .container-inscription .a-cgu {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.0em;
+    padding-bottom: 1.5px;
+    /* border-bottom: 1px solid; */
+    text-decoration: none;
+    border-bottom: 1px solid #080928;
+    margin-bottom: 10px;
+
+    
+}
+
+section#contact .container-inscription {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 10px 50px -10px white;
+    box-sizing: border-box;  
+    background-color: white;
+}
+
+section#contact .container-inscription .title-inscription {
+    text-align: left;
+    margin-right: 25px;
+}
+
+section#contact .container-inscription form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start
+    /* max-width: 650px; */
+}
+
+section#contact .container-inscription .img-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section#contact .container-inscription .img-input input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+    width: 80%;  
+}
+
+section#contact .container-inscription img {
+    padding-right: 10px;   
+}
+
+section#contact .container-inscription .img-input{
+    margin-bottom: 15px;
+    margin-right: 60px;
+    border-bottom: 0px solid;
+    width: 80%;
+}
+section#contact .container-inscription .img-input:hover{
+    margin-bottom: 15px;
+    margin-right: 60px;
+    border-bottom: 1px solid;
+    width: 80%;
+}
+
+section#contact .container-inscription .checkbox  {
+    padding-bottom: 15px;
+}
+
+/* section#contact .container-inscription .checkbox .a-cgu  {
+    padding-bottom: 15px;
+} */
+
+section#contact .container-inscription .submit {
+    background-color: transparent;
+    color: #080928;
+    width: 55%;
+    cursor: pointer;
+    border-radius: 15px;
+    border-color: #080928;
+    margin-top: 15px;
+  
+}
+
+section#contact .container-inscription .submit:hover {
+    background-color: transparent;
+    color: white;
+    width: 55%;
+    cursor: pointer;
+    background-color: #080928;
+    border-radius: 15px;
+  
+}
+section#contact .container-inscription .submit:active {
+    position:relative;
+	top:1px;
+}
+.kawai {
+    /* width: 90%; */
+    transition: 5s;
+    border-radius: 150px;
+}
+.kawai:hover {
+    /* width: 100%; */
+    transform: rotate(180deg)
+}
+
+/* Fin de la page d'inscription */
