@@ -4,9 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600&display=swap');
 
-* {
+/* * {
 	box-sizing: border-box;
-}
+} */
 
 body {
     background-color: #080928;
@@ -24,8 +24,8 @@ section {
 .container1 aside .jeu-aside p {
     color: #ffff;
     font-family: 'Oxanium', cursive;
-
 }
+
 .container1 .jeu-main h2 {
 
     color: #ffff;
